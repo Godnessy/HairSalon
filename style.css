@@ -4,6 +4,10 @@
 body {
   margin: 0px;
 }
+
+.h1 .h2 {
+  font-family: "Varela Round", sans-serif;
+}
 .container {
   display: grid;
   margin: auto auto;
@@ -154,11 +158,11 @@ body {
 }
 
 .leaf {
-  grid-row-start: 3;
   height: auto;
-  position: absolute;
-  bottom: 13px;
-  right: 45%;
+  position: relative;
+  bottom: 20px;
+  left: 45%;
+  z-index: 10;
 }
 
 .newOnShelf {
@@ -178,4 +182,37 @@ body {
   border: 1px solid #797979;
   background-color: #ffffff;
   box-sizing: border-box;
+}
+
+.aboutUs {
+  height: 646px;
+  text-align: right;
+}
+
+.aboutUsTitle {
+  color: #c69c6d;
+  font-size: 50px;
+  margin-top: 5px;
+  padding-right: 10%;
+  margin-bottom: 10px;
+}
+
+.aboutUsText {
+  font-family: "Arial Regular", "Arial", sans-serif;
+  padding-right: 20px;
+}
+
+.teamPics {
+  width: 173px;
+  height: auto;
+  padding: 20px;
+}
+
+.aboutVladi {
+  display: flex;
+  align-items: center;
+}
+.vladiPic {
+  position: relative;
+  left: 150px;
 }
