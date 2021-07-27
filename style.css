@@ -5,6 +5,7 @@
 body {
   margin: 0px;
   text-align: right;
+  width: 360px;
 }
 
 h1 {
@@ -27,11 +28,13 @@ h3 {
 }
 .container {
   display: grid;
-  grid-template-rows: 38.125em 1fr 58.5em;
+  grid-template-columns: 360px;
+  grid-template-rows: 38.125em auto 58.5em;
 }
 
 .header {
   display: flex;
+  align-content: center;
   position: fixed;
   top: 0;
   opacity: 92%;
@@ -79,9 +82,9 @@ h3 {
 .book1 {
   position: absolute;
   top: -0.3em;
-  left: 16.25em;
-  width: 4.5625em;
-  height: 2.25em;
+  left: 260px;
+  width: 73px;
+  height: 36px;
   padding-top: 0.3em;
   border-width: thin;
 }
@@ -95,7 +98,7 @@ h3 {
       rgba(0, 0, 0, 0.78) 95.98019737909107%
     );
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   background-blend-mode: multiply;
   grid-row-start: 1;
   width: 100%;
@@ -109,13 +112,13 @@ h3 {
   width: 103px;
   height: auto;
   position: relative;
-  right: 8.125em;
-  top: 11.3em;
+  left: 35%;
+  top: 12.3em;
 }
 
 .nameLine {
   position: relative;
-  top: 4.7em;
+  top: 165px;
   width: 359px;
   height: 58px;
   font-size: 30px;
